@@ -17,11 +17,18 @@ body{
     display: inline-block;
     width: 200px;
     height: 100%;
+    height:calc(100% - 20px);
     background-color: aqua;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
 }
 
 #main-doc{
     display: inline-block;
     width:calc(100% - 200px);
     background-color: aqua;
+    position: relative;
+    left: 205px;
 }
