@@ -1,5 +1,5 @@
 html{
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -10,7 +10,7 @@ body{
     flex-direction: row;
     padding: 10px;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 header{
@@ -22,13 +22,17 @@ header{
     font-size: 20px;
 }
 
-ul {
+#main-doc{
+    padding: 10px;
+}
+
+.side_list {
     list-style-type: none;
     padding: 0px;
     height: 90%;
 }
 
-li{
+.side{
     text-align: center;
     vertical-align: middle;
     height: calc(100% / 14);
@@ -56,6 +60,7 @@ a{
 #main-doc{
     display: inline-block;
     width:calc(100% - 200px);
+    height: auto;
     background-color: aqua;
     position: relative;
     left: 205px;
